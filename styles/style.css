@@ -1,0 +1,27 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+body {
+  background-color: #151515;
+  color: #fff;
+}
+
+.SVGInline {
+  display: flex;
+  align-items: center;
+}
+
+.SVGIcon {
+  background-color: gray;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
