@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -13,11 +13,16 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.1.0",
+    "lodash": "^4.17.20",
     "next": "^10.0.3",
+    "next-images": "^1.6.2",
+    "node-fetch": "^2.6.1",
     "postcss": "^8.2.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
+    "react-svg-inline": "^2.1.1",
     "tailwindcss": "^2.0.1"
   }
 }

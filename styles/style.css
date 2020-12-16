@@ -1,27 +1,16 @@
-@tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
-@tailwind components;
-/* Stop purging. */
-
 body {
-  background-color: #151515;
+  background-color: #000;
   color: #fff;
 }
 
-.SVGInline {
-  display: flex;
-  align-items: center;
+a {
+  text-decoration: none;
 }
 
-.SVGIcon {
-  background-color: gray;
+.nav-menu {
+  text-decoration: none;
 }
 
-/* Start purging... */
-@tailwind utilities;
-/* Stop purging. */
-
-/* Your own custom utilities */
+.sidebar-item {
+  text-decoration: none;
+}

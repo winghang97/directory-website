@@ -1,9 +1,10 @@
-import Nav from "../components/Sidebar";
+import Sidebar from "../components/sidebar/Sidebar";
 
-export default function IndexPage() {
-  return (
-    <div>
-      <Nav />
-    </div>
-  );
-}
+const Index = () => (
+  <div>
+    <Sidebar />
+    <h1>Index page</h1>
+  </div>
+);
+
+export default Index;
